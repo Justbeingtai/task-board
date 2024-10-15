@@ -9,8 +9,22 @@ body {
 
 .task-card {
   margin: 0 auto;
+  padding: 10px;
 }
 
 .task-card:hover {
   cursor: grab;
+}
+
+.card-body {
+  background-color: white;
+  padding: 15px;
+}
+
+.card-body.red {
+  background-color: red;
+}
+
+.card-body.yellow {
+  background-color: yellow;
 }
